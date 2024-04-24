@@ -8,7 +8,7 @@ class Isolates {
     SendPort resultadoPuerto  = args[0];
 
     //Ejecutar el metodo pesado
-    int valor = runTareononConIsolate(args[1]);
+    int valor = runTareononFueraIsolate(args[1]);
 
     //Una vez que terminemos la operacion regresaremos al Isolate principal con el resultado calculado.
     Isolate.exit(resultadoPuerto, valor);
