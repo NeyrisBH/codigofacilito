@@ -1,0 +1,26 @@
+name: clase_dos
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  mobx: ^2.3.3+1
+  flutter_mobx: ^2.2.1+1
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  build_runner: ^2.4.8
+  mobx_codegen: ^2.6.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
