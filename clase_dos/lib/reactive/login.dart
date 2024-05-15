@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 
 class Login extends StatelessWidget {
+  const Login({super.key});
+
   @override
   Widget build(BuildContext context) {
     Account account = Account();
@@ -15,17 +17,18 @@ class Login extends StatelessWidget {
         Column(
           children: [
             Observer(builder: (_){
-              if (account.accountModel!=null) {
-                return Text(
-                  "Bienvenido ${account.accountModel!.value.name}"
-                );
-              } else {
+              if (account.isLoading.value) {
                 return const CircularProgressIndicator();
+              } else {
+                return Text((account.accountModel!=null)?
+                  "Bienvenid@ ${account.accountModel!.value.name}":""
+                );
               }
             }),
+            const SizedBox(height: 20,),
             ElevatedButton(
               onPressed: (){
-                AccountModel(id: 1, name: "Neyris", email: "ejempla@mail.com", password: "12345");
+                account.addAccount(AccountModel(id: 1, name: "Neyris", email: "ejempla@mail.com", password: "12345"));
               },
               child: const Text(
                 "Iniciar Sesion"

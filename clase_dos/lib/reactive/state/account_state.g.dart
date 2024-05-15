@@ -25,6 +25,22 @@ mixin _$Account on _Account, Store {
     });
   }
 
+  late final _$isLoadingAtom =
+      Atom(name: '_Account.isLoading', context: context);
+
+  @override
+  Observable<bool> get isLoading {
+    _$isLoadingAtom.reportRead();
+    return super.isLoading;
+  }
+
+  @override
+  set isLoading(Observable<bool> value) {
+    _$isLoadingAtom.reportWrite(value, super.isLoading, () {
+      super.isLoading = value;
+    });
+  }
+
   late final _$addAccountAsyncAction =
       AsyncAction('_Account.addAccount', context: context);
 
@@ -36,7 +52,8 @@ mixin _$Account on _Account, Store {
   @override
   String toString() {
     return '''
-accountModel: ${accountModel}
+accountModel: ${accountModel},
+isLoading: ${isLoading}
     ''';
   }
 }
