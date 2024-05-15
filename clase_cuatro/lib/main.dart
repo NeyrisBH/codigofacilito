@@ -1,4 +1,4 @@
-import 'package:clase_cuatro/user_preferences/home_view.dart';
+import 'package:clase_cuatro/home_page.dart';
 import 'package:clase_cuatro/user_preferences/user_preferences.dart';
 import 'package:flutter/material.dart';
 
@@ -32,7 +32,8 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: const HomeView()
+      //home: const HomeView()
+      home: const HomePage(),
     );
   }
 }
