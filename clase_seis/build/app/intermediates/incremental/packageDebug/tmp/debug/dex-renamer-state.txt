@@ -1,0 +1,4 @@
+#Wed May 15 23:56:52 COT 2024
+base.0=D\:\\ESTE EQUIPO\\Documents\\GitHub\\Flutter\\codigofacilito\\clase_seis\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
