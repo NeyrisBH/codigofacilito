@@ -1,0 +1,5 @@
+{
+    "editor.linkedEditing": true,
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.tree.indent": 12
+}
