@@ -1,0 +1,28 @@
+^D:\ESTE EQUIPO\DOCUMENTS\GITHUB\FLUTTER\CODIGOFACILITO\CLASE_SEIS\BUILD\WINDOWS\X64\CMAKEFILES\8DD48DE7B607CD6CF059E3B4421EA653\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter "PROJECT_DIR=D:\ESTE EQUIPO\Documents\GitHub\Flutter\codigofacilito\clase_seis" FLUTTER_ROOT=C:\flutter "FLUTTER_EPHEMERAL_DIR=D:\ESTE EQUIPO\Documents\GitHub\Flutter\codigofacilito\clase_seis\windows\flutter\ephemeral" "PROJECT_DIR=D:\ESTE EQUIPO\Documents\GitHub\Flutter\codigofacilito\clase_seis" "FLUTTER_TARGET=D:\ESTE EQUIPO\Documents\GitHub\Flutter\codigofacilito\clase_seis\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9jNGNkNDhlMTg2NDYwYjMyZDQ0NTg1Y2UzYzEwMzI3MWFiNjc2MzU1Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\ESTE EQUIPO\Documents\GitHub\Flutter\codigofacilito\clase_seis\.dart_tool\package_config.json" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ESTE EQUIPO\DOCUMENTS\GITHUB\FLUTTER\CODIGOFACILITO\CLASE_SEIS\BUILD\WINDOWS\X64\CMAKEFILES\8FE64DAC1D0EA25D092415BC8E35007B\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ESTE EQUIPO\DOCUMENTS\GITHUB\FLUTTER\CODIGOFACILITO\CLASE_SEIS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/windows" "-BD:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64" --check-stamp-file "D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

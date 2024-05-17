@@ -12,8 +12,9 @@ class _CounterScreenState extends State<CounterScreen> {
   int _counter = 0;
 
   void _increment() {
-    _counter++;
-    setState(() {});
+    setState(() {
+      _counter++;
+    });
   }
 
   @override
@@ -29,6 +30,7 @@ class _CounterScreenState extends State<CounterScreen> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        key: const Key('button'),
         onPressed: _increment,
         child: const Icon(Icons.add),
       ),

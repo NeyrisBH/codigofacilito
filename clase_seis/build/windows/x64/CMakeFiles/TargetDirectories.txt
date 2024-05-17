@@ -1,0 +1,10 @@
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/CMakeFiles/INSTALL.dir
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/runner/CMakeFiles/testing.dir
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+D:/ESTE EQUIPO/Documents/GitHub/Flutter/codigofacilito/clase_seis/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir
