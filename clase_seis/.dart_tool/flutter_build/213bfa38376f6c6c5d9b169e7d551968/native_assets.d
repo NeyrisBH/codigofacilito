@@ -1,0 +1,1 @@
+ D:\\ESTE\ EQUIPO\\Documents\\GitHub\\Flutter\\codigofacilito\\clase_seis\\.dart_tool\\flutter_build\\213bfa38376f6c6c5d9b169e7d551968\\native_assets.yaml: 

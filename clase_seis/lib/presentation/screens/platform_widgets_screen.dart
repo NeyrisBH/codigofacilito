@@ -1,7 +1,7 @@
-import 'dart:io';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../core/platform.dart';
 
 class PlatformWidgetsScreen extends StatelessWidget {
   const PlatformWidgetsScreen({super.key});
@@ -17,7 +17,7 @@ class PlatformWidgetsScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            if (Platform.isIOS)
+            if (isIOS)
               CupertinoButton(
                 child: const Text('Cupertino'),
                 onPressed: () {},
