@@ -127,3 +127,4 @@ dist
 .pnp.*
 /clase_seis/build
 /clase_seis/.dart_tool
+/clase_seis/build
