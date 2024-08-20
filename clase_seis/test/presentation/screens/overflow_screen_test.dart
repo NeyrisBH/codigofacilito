@@ -6,6 +6,12 @@ void main() {
   testWidgets(
     'OverflowScreen',
     (tester) async {
+      // tester.view.physicalSize = const Size(
+      //   10000,
+      //   4000,
+      // );
+      // print(tester.view.physicalSize);
+
       await tester.pumpWidget(
         const MaterialApp(
           home: OverflowScreen(),
