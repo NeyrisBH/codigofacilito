@@ -126,3 +126,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 /clase_seis/build
+/clase_seis/.dart_tool
