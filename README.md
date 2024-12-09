@@ -8,7 +8,15 @@
 
 El repositorio está organizado en carpetas, una por cada clase/módulo del curso:
 
-/Módulo 1 - Dart Avanzado /Módulo 2 - Arquitectura y Patrón de Diseño /Módulo 3 - Pruebas /Módulo 4 - Archivos Nativos iOS y Android /Módulo 5 - Animaciones y Transiciones /Módulo 6 - Proyecto Final /Módulo 7 - Notificaciones /Módulo 8 - Autenticación con Tokens (OAuth) /Módulo 9 - Monetización de Apps
+/Módulo 1 - Dart Avanzado
+/Módulo 2 - Arquitectura y Patrón de Diseño
+/Módulo 3 - Pruebas
+/Módulo 4 - Archivos Nativos iOS y Android
+/Módulo 5 - Animaciones y Transiciones
+/Módulo 6 - Proyecto Final
+/Módulo 7 - Notificaciones
+/Módulo 8 - Autenticación con Tokens (OAuth)
+/Módulo 9 - Monetización de Apps
 
 
 Cada carpeta contiene los ejemplos, prácticas y proyectos creados durante ese módulo.
