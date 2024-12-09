@@ -1,6 +1,6 @@
 # Bootcamp de Flutter Avanzado - CódigoFacilito
 
-¡Bienvenido al repositorio del Bootcamp de Flutter Avanzado impartido por CódigoFacilito! Aquí encontrarás el código fuente organizado por módulos, correspondientes a las clases del curso. Cada módulo abarca un tema específico para llevar tus habilidades en Flutter al siguiente nivel.
+> ¡Bienvenido al repositorio del Bootcamp de Flutter Avanzado impartido por CódigoFacilito! Aquí encontrarás el código fuente organizado por módulos, correspondientes a las clases del curso. Cada módulo abarca un tema específico para llevar tus habilidades en Flutter al siguiente nivel.
 
 ---
 
@@ -18,8 +18,6 @@ El repositorio está organizado en carpetas, una por cada clase/módulo del curs
 - /Módulo 8 - Autenticación con Tokens (OAuth)
 - /Módulo 9 - Monetización de Apps
 
-
-Cada carpeta contiene los ejemplos, prácticas y proyectos creados durante ese módulo.
 
 ---
 
